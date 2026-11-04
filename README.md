@@ -1,5 +1,5 @@
-📊 Trade Sentiment vs Trader Behavior Analysis
-📌 Project Overview
+Trade Sentiment vs Trader Behavior Analysis
+Project Overview
 
 This project analyzes how Bitcoin market sentiment (Fear & Greed Index) influences trader behavior and performance on Hyperliquid.
 
@@ -19,8 +19,8 @@ The objective is to uncover patterns between sentiment regimes and trading activ
 
 (Note: Historical trade dataset excluded due to size limits.)
 
-📊 Datasets Used
-1️⃣ Bitcoin Market Sentiment (Fear & Greed Index)
+Datasets Used
+1] Bitcoin Market Sentiment (Fear & Greed Index)
 
 Date
 
@@ -28,11 +28,11 @@ Sentiment value
 
 Sentiment classification (Fear, Greed, Extreme Fear, etc.)
 
-2️⃣ Historical Trader Data (Hyperliquid)
+2️] Historical Trader Data (Hyperliquid)
 
 Execution price, Size, Direction, Closed PnL, Fees, Timestamp, Account
 
-🛠 Methodology
+Methodology
 Part A — Data Preparation
 
 Cleaned and validated datasets (no missing or duplicate values)
@@ -106,7 +106,7 @@ Consistent moderate performers
 
 This segmentation highlights distinct behavioral patterns across accounts.
 
-📈 Dashboard
+Dashboard
 
 A lightweight Streamlit dashboard was developed to visualize:
 
@@ -123,7 +123,7 @@ To run locally:
 pip install -r requirements.txt
 streamlit run app.py
 
-▶️ How to Run the Notebook
+How to Run the Notebook
 
 Install required libraries:
 
@@ -137,7 +137,7 @@ Trading_Sentiment_Analysis.ipynb
 
 Run all cells sequentially.
 
-🎯 Key Insights
+Key Insights
 
 Fear regimes create higher volatility and stronger profit opportunities.
 
@@ -147,7 +147,7 @@ Trade activity is moderately linked to profitability.
 
 Behavioral clustering reveals distinct trader archetypes.
 
-💡 Strategy Recommendations
+Strategy Recommendations
 
 Increase exposure during Fear regimes.
 
@@ -155,7 +155,7 @@ Reduce leverage and aggression during Extreme Greed.
 
 Adjust position sizing based on activity and volatility levels.
 
-🧠 Skills Demonstrated
+Skills Demonstrated
 
 Data Cleaning & Transformation
 
@@ -171,7 +171,7 @@ Unsupervised Learning (KMeans)
 
 Dashboard Development (Streamlit)
 
-📌 Author
+Author
 
 Chirag S
 Artificial Intelligence & Data Science
